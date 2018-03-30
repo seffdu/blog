@@ -3,13 +3,13 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
+title: 又一个博客
 subtitle:
-description:
+description: 我随便写写，您随便看看
 keywords:
-author: John Doe
-language:
-timezone:
+author: 互撸娃
+language: zh-Hans
+timezone: Asia/Shanghai
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
@@ -35,13 +35,13 @@ titlecase: false # Transform title into titlecase
 external_link: true # Open external links in new tab
 filename_case: 0
 render_drafts: false
-post_asset_folder: false
+post_asset_folder: true
 relative_link: false
 future: true
 highlight:
   enable: true
   line_number: true
-  auto_detect: false
+  auto_detect: true
   tab_replace:
   
 # Home page setting
@@ -81,3 +81,10 @@ deploy:
   type: git
   repo:
       github: git@github.com:seffdu/seffdu.github.io,master
+
+
+search:
+  path: search.xml
+  field: post
+  format: html
+  limit: 10000
