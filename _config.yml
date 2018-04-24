@@ -1,4 +1,4 @@
-# Hexo Configuration
+﻿# Hexo Configuration
 ## Docs: https://hexo.io/docs/configuration.html
 ## Source: https://github.com/hexojs/hexo/
 
@@ -81,10 +81,3 @@ deploy:
   type: git
   repo:
       github: git@github.com:seffdu/seffdu.github.io,master
-
-
-search:
-  path: search.xml
-  field: post
-  format: html
-  limit: 10000
